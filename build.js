@@ -8,15 +8,15 @@ async function generateHTML() {
   const source = await fs.readFile(templatePath, 'utf8');
   const template = Handlebars.compile(source);
 
-  // Load your game data JSON
+  // Load game data JSON
   let gameData = await fs.readJson(path.join(__dirname, 'game_data.json'));
 
-  // Enhance each game object with an img property
+  // Add image src based on game name
   gameData.forEach(game => {
     game.img = `img/${game.gameName.replace(/\s+/g, '-').toLowerCase()}.png`;
   });
 
-  // Organize games by category according to the new rules
+  // Organize games by category
   const categorizedGames = {
     released: gameData.filter(game => game.released && typeof game.jam === 'undefined'),
     inProgress: gameData.filter(game => !game.released && typeof game.jam === 'undefined'),

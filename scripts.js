@@ -25,8 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
             link.style.color = randomColor; 
         });
     }
-
+    //Change link colors once on load
     changeLinkColors();
-    
+
+    //Change link colors every 20sec
     setInterval(changeLinkColors, 20000);
 });
