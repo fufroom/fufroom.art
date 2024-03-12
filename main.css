@@ -1,0 +1,76 @@
+body {
+    font-family: monospace !important;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.container{
+ 
+    margin: 50px auto;
+}
+
+header {
+    padding: 20px 23px;
+  
+}
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    color: #6e1d87;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+
+.game{
+    margin-bottom: 34px;
+    border: 1px dashed grey;
+   
+}
+.game .contents{
+    padding: 18px;
+}
+
+.game_name{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.platform-icons{
+    margin-top: 5px;
+}
+
+.fa, .fas, .fab{
+    font-size: 30px;
+}
+
+.game img{
+    max-width: 100%;
+}

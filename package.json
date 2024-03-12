@@ -1,0 +1,34 @@
+{
+  "name": "fufroom.art",
+  "version": "0.1.0",
+  "description": "Hi, I'm Alex, a solo game developer based out of Louisville, Kentucky.",
+  "main": "scripts.js",
+  "scripts": {
+    "build": "node build.js && sh ./upload.sh"
+  },
+  "keywords": [
+    "Solo Game Developer",
+    "Louisville Game Developer",
+    "Indie Games",
+    "Game Development Community",
+    "Game Development Tutorials",
+    "Steam Games",
+    "Browser-Based Games",
+    "Creative Game Design",
+    "Game Development Projects",
+    "Indie Game Releases"
+  ]
+,  
+  "contributors": [
+    {
+      "name": "fufroom (Alex Bezuska)",
+      "email": "hello@fufroom.art",
+      "url": "http://fufroom.art"
+    }
+  ],  
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "handlebars": "^4.7.8"
+  }
+}

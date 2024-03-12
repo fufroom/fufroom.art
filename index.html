@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fufroom🍄- Solo Game Developer</title>
+    
+    <!-- OpenGraph meta tags -->
+    <meta property="og:title" content="fufroom🍄- Solo Game Developer">
+    <meta property="og:description" content="👋 Hi, I'm Alex, a solo game developer based out of Louisville, Kentucky. I created the game Hardcore Cottagecore on Steam">
+    <meta property="og:url" content="http://fufroom.art">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="fufroom🍄- Solo Game Developer">
+    <meta name="twitter:description" content="👋 Hi, I'm Alex, a solo game developer based out of Louisville, Kentucky. I created the game Hardcore Cottagecore on Steam">
+    <meta name="twitter:image" content="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>🍄 fufroom</h1>
+    </header>
+  
+    <main>
+        <p>👋 Hi, I'm Alex, a solo game developer based out of Louisville, Kentucky.</p>
+        <p>Part of the <a href="https://louisvillemakesgames.org">Louisville Makes Games</a> community!</p>
+
+        <br>
+        <h3>🍄 What's with the name 'fufroom'?</h3>
+        <p>(Pronounced "Fuff" like fluff, "room" like bedroom)</p>
+        <p>This is how my daughter said "mushroom" as a toddler and I thought it was super cute!</p>
+        <br>
+   <br>
+<h2>🎮 My Games</h2>
+<h3>Released Games:</h3>
+<!-- For Released Games -->
+<div class="row">
+{{#each games.released}}
+<div class="col-lg-4 col-md-6">
+<div class="game">
+    <img src="{{this.img}}" alt="{{this.gameName}} by {{creator}}"/>
+    <div class="contents">
+    <span class="game_name">{{this.gameName}}</span>
+    <br>by {{creator}}
+    <br>[{{this.date}}] {{#if this.jamName}}[{{this.jamName}}]{{/if}}
+  
+    <div class="platform-icons">
+        {{#if platforms.steam}}
+          <a  title="Available on Steam"  href="{{platforms.steam}}" target="_blank"><i class="fab fa-steam"></i></a>
+        {{/if}}
+        {{#if platforms.itch_io}}
+          <a  title="Available on itch.io" href="{{platforms.itch_io}}" target="_blank"><i class="fab fa-itch-io"></i></a>
+        {{/if}}
+        {{#if platforms.chrome_web_store}}
+          <a  title="Available on the Chrome Web Store" href="{{platforms.chrome_web_store}}" target="_blank"><i class="fab fa-chrome"></i></a>
+        {{/if}}
+        {{#if platforms.play_on_the_web}}
+          <a  title="Play on the web in your browser"  href="{{platforms.play_on_the_web}}" target="_blank"><i class="fab fa-html5"></i></a>
+        {{/if}}
+        {{#if platforms.nintendo_switch}}
+          <a title="Available on the Nintendo Switch eShop" href="{{platforms.nintendo_switch}}" target="_blank"><i class="fas fa-gamepad"></i></a>
+        {{/if}}
+        {{#if platforms.apple_app_store}}
+          <a title="Available on the Apple App Store" href="{{platforms.apple_app_store}}" target="_blank"><i class="fab fa-app-store-ios"></i></a>
+        {{/if}}
+        {{#if platforms.google_play_store}}
+          <a title="Available on the Google Play Store" href="{{platforms.google_play_store}}" target="_blank"><i class="fab fa-google-play"></i></a>
+        {{/if}}
+        {{#if platforms.android_apk}}
+          <a title="Android APK" href="{{platforms.google_play_store}}" target="_blank"><i class="fab fa-android"></i></a>
+        {{/if}}
+        {{#if platforms.print_and_play}}
+          <a title="Print and Play Physical Game" href="{{platforms.google_play_store}}" target="_blank"><i class="fas fa-print"></i></a>
+        {{/if}}
+      </div>
+    </div>
+</div></div>
+{{/each}}
+</div>
+
+
+<h3>Currently Working on:</h3>
+<!-- For Currently Working On -->
+<div class="row">
+{{#each games.inProgress}}
+<div class="col-lg-4 col-md-6">
+<div class="game">
+    <img src="{{this.img}}" alt="{{this.gameName}} by {{creator}}"/>
+    <div class="contents">
+    <span class="game_name">{{this.gameName}}</span>
+    <br>by {{creator}}
+    <div class="platform-icons">
+        {{#if platforms.steam}}
+          <a  title="Available on Steam"  href="{{platforms.steam}}" target="_blank"><i class="fab fa-steam"></i></a>
+        {{/if}}
+        {{#if platforms.itch_io}}
+          <a  title="Available on itch.io" href="{{platforms.itch_io}}" target="_blank"><i class="fab fa-itch-io"></i></a>
+        {{/if}}
+        {{#if platforms.chrome_web_store}}
+          <a  title="Available on the Chrome Web Store" href="{{platforms.chrome_web_store}}" target="_blank"><i class="fab fa-chrome"></i></a>
+        {{/if}}
+        {{#if platforms.play_on_the_web}}
+          <a  title="Play on the web in your browser"  href="{{platforms.play_on_the_web}}" target="_blank"><i class="fab fa-html5"></i></a>
+        {{/if}}
+        {{#if platforms.nintendo_switch}}
+          <a title="Available on the Nintendo Switch eShop" href="{{platforms.nintendo_switch}}" target="_blank"><i class="fas fa-gamepad"></i></a>
+        {{/if}}
+        {{#if platforms.apple_app_store}}
+          <a title="Available on the Apple App Store" href="{{platforms.apple_app_store}}" target="_blank"><i class="fab fa-app-store-ios"></i></a>
+        {{/if}}
+        {{#if platforms.google_play_store}}
+          <a title="Available on the Google Play Store" href="{{platforms.google_play_store}}" target="_blank"><i class="fab fa-google-play"></i></a>
+        {{/if}}
+        {{#if platforms.android_apk}}
+          <a title="Android APK" href="{{platforms.google_play_store}}" target="_blank"><i class="fab fa-android"></i></a>
+        {{/if}}
+        {{#if platforms.print_and_play}}
+          <a title="Print and Play Physical Game" href="{{platforms.google_play_store}}" target="_blank"><i class="fas fa-print"></i></a>
+        {{/if}}
+      </div>
+    </div>
+</div></div>
+{{/each}}
+</div>
+
+<!-- For Jam or Prototype Games -->
+<h3> Jam Games and Prototypes:</h3>
+<div class="row">
+{{#each games.jams}}
+<div class="col-lg-4 col-md-6">
+<div class="game">
+    <img src="{{this.img}}" alt="{{this.gameName}} by {{creator}}"/>
+    <div class="contents">
+    <span class="game_name">{{this.gameName}}</span>
+    <br>by {{creator}}
+    <br>[{{this.date}}] {{#if this.jamName}}[{{this.jamName}}]{{/if}}
+    <div class="platform-icons">
+        {{#if platforms.steam}}
+          <a  title="Available on Steam"  href="{{platforms.steam}}" target="_blank"><i class="fab fa-steam"></i></a>
+        {{/if}}
+        {{#if platforms.itch_io}}
+          <a  title="Available on itch.io" href="{{platforms.itch_io}}" target="_blank"><i class="fab fa-itch-io"></i></a>
+        {{/if}}
+        {{#if platforms.chrome_web_store}}
+          <a  title="Available on the Chrome Web Store" href="{{platforms.chrome_web_store}}" target="_blank"><i class="fab fa-chrome"></i></a>
+        {{/if}}
+        {{#if platforms.play_on_the_web}}
+          <a  title="Play on the web in your browser"  href="{{platforms.play_on_the_web}}" target="_blank"><i class="fab fa-html5"></i></a>
+        {{/if}}
+        {{#if platforms.nintendo_switch}}
+          <a title="Available on the Nintendo Switch eShop" href="{{platforms.nintendo_switch}}" target="_blank"><i class="fas fa-gamepad"></i></a>
+        {{/if}}
+        {{#if platforms.apple_app_store}}
+          <a title="Available on the Apple App Store" href="{{platforms.apple_app_store}}" target="_blank"><i class="fab fa-app-store-ios"></i></a>
+        {{/if}}
+        {{#if platforms.google_play_store}}
+          <a title="Available on the Google Play Store" href="{{platforms.google_play_store}}" target="_blank"><i class="fab fa-google-play"></i></a>
+        {{/if}}
+        {{#if platforms.android_apk}}
+          <a title="Android APK" href="{{platforms.google_play_store}}" target="_blank"><i class="fab fa-android"></i></a>
+        {{/if}}
+        {{#if platforms.print_and_play}}
+          <a title="Print and Play Physical Game" href="{{platforms.google_play_store}}" target="_blank"><i class="fas fa-print"></i></a>
+        {{/if}}
+      </div>
+    </div>
+</div>
+</div>
+{{/each}}
+</div>
+
+        <ul>
+            <li><a target="_blank" href="https://store.steampowered.com/search/?developer=fufroom">Follow me on Steam</a></li>
+            <li><a target="_blank" href="https://fufroom.itch.io/">Follow me on itch.io</a></li>
+        </ul>
+
+    <h3>Need game support, or want to report a bug?</h3>
+    <ul>
+    <li><a href="mailto:hello@fufroom.art">hello@fufroom.art</a></li>
+    </ul>
+    <br>
+    <h2>💬 Where to follow me</h2>
+        <ul>
+            <li><a target="_blank" href="https://mastodon.gamedev.place/@fufroom">Mastodon</a></li>
+            <li><a target="_blank" href="https://twitter.com/fufroom">Twitter</a></li>
+            <li><a target="_blank" href="https://www.tiktok.com/@hello.fufroom">TikTok</a></li>
+            <li><a target="_blank" href="https://www.youtube.com/@fufroom">YouTube</a></li>
+            <li><a target="_blank" href="https://www.twitch.tv/fufroom">Twitch</a></li>
+        </ul>
+    </main>
+    </div>
+</body>
+</html>

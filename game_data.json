@@ -1,0 +1,528 @@
+[
+    {
+        "link": "http://hardcorecottagecore.com",
+        "gameName": "Hardcore Cottagecore",
+        "creator": "fufroom (Alex Bezuska)",
+        "released": true,
+        "date": "2024-02-16",
+        "platforms": {
+            "steam": "https://store.steampowered.com/app/2753330/Hardcore_Cottagecore/",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+          
+    },
+    {
+        "link": "http://twoscoopgames.com/syrush/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "gameName": "SyRUSH",
+        "released": true,
+        "date":"2014-08-04",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://twoscoopgames.com/syrush/",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/scurry/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "gameName": "Scurry",
+        "released": true,
+        "date":"2014-06-30",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/scurry",
+            "chrome_web_store": "https://chrome.google.com/webstore/detail/scurry/djoifiholmpdceikfaajckcjepbjolof",
+            "play_on_the_web": "http://twoscoopgames.com/scurry/",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/kickbotclassic/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "gameName": "Kick Bot (Classic)",
+        "released": true,
+        "date":"2014-04-30",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/kick-bot-classic",
+            "chrome_web_store": "https://chrome.google.com/webstore/detail/kick-bot/lafjmgdfokjjbcbhbmcajlommahhgnlk",
+            "play_on_the_web": "http://twoscoopgames.com/kickbot/game/",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "https://gamejolt.com/games/glazing-lazers/64688",
+        "creator": "fufroom (Alex Bezuska)",
+        "gameName": "Glazing Lazers",
+        "released": true,
+        "jam": true,
+        "jamName": "letscookjam",
+        "date": "2015-05-04",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "https://gamejolt.com/games/glazing-lazers/64688",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "https://two-scoop-games.itch.io/pullpals",
+        "gameName": "PullPals (Prototype 2018)",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "released": true,
+        "jam": true,
+        "jamName": "Ludum Dare 40",
+        "jamTheme": "The more you have, the worse it is",
+        "date": "2017-12-04",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/pullpals",
+            "chrome_web_store": "",
+            "play_on_the_web": "",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": "https://two-scoop-games.itch.io/pullpals"
+          }
+    },
+    {
+        "link": "",
+        "gameName": "PullPals",
+        "creator": "fufroom (Alex Bezuska)",
+        "released": false,
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+      
+    },
+    {
+        "link": "https://two-scoop-games.itch.io/unclaimed-loot",
+        "gameName": "Unclaimed Loot",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "released": true,
+        "jam": true,
+        "jamName": "6 Hour Spooky Jam 2021",
+        "jamTheme": "Halloween",
+        "date": "2021-10-25",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/unclaimed-loot",
+            "chrome_web_store": "",
+            "play_on_the_web": "https://two-scoop-games.itch.io/unclaimed-loot",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "https://spooky.singles/",
+        "gameName": "spooky.singles",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "released": true,
+        "jam": true,
+        "jamName": "6 Hour Spooky Jam 2020",
+        "jamTheme": "Halloween",
+        "date": "2020-10-25",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://spooky.singles",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "https://two-scoop-games.itch.io/undercover-ghost-club",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "gameName": "Super Secret Undercover Ghost Club",
+        "jamName": "6 Hour Jam 2017",
+        "released": true,
+        "jam": true,
+        "jamTheme": "Halloween",
+        "date": "2017-10-14",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "https://two-scoop-games.itch.io/undercover-ghost-club",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "https://two-scoop-games.itch.io/vectrix-bee-shooter-concept",
+        "creator": "fufroom (Alex Bezuska)",
+        "gameName": "Vectrex Style Bee Shooter concept",
+        "jamName": "6 Hour Game Jam",
+        "released": true,
+        "jam": true,
+        "jamTheme": "Bees",
+        "date": "2015-06-13",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/vectrix-bee-shooter-concept",
+            "chrome_web_store": "",
+            "play_on_the_web": "",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "https://fufroom.itch.io/finding-home",
+        "creator": "fufroom (Alex Bezuska)",
+        "gameName": "Finding Home",
+        "date": "2016-12-14",
+        "released": true,
+        "jam": true,
+        "jamName": "Ludum Dare 37",
+        "jamTheme": "One Room",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "https://fufroom.itch.io/finding-home",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "https://fufroom.itch.io/fog-and-glass",
+        "creator": "fufroom (Alex Bezuska), howdycara",
+        "gameName": "Fog and Glass",
+        "date": "2017-04-24",
+        "released": true,
+        "jam": true,
+        "jamName": "Ludum Dare 38",
+        "jamTheme": "A Small World",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "https://fufroom.itch.io/fog-and-glass",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/fortunedicevr/",
+        "creator": "fufroom (Alex Bezuska), howdycara, Eric Lathrop",
+        "gameName": "Fortune Dice VR",
+        "date": "2018-10-28",
+        "released": true,
+        "jam": true,
+        "jamName": "6 hour Spooky Jam",
+        "jamTheme": "2018",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/spooky-fortune-telling-dice-vr",
+            "chrome_web_store": "",
+            "play_on_the_web": "",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/movingin/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop, Barry Rowe",
+        "gameName": "Moving In",
+        "date": "2019-01-25",
+        "released": true,
+        "jam": true,
+        "jamName": "Global Game Jam 2019",
+        "jamTheme": "What home means to you",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "print_and_play": "http://twoscoopgames.com/movingin/",
+            "play_on_the_web": "",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/fineage/",
+        "creator": "fufroom (Alex Bezuska), howdycara, Eric Lathrop",
+        "gameName": "Fineage",
+        "date": "2018-01-28",
+        "released": true,
+        "jam": true,
+        "jamName": "Global Game Jam 2018",
+        "jamTheme": "Transmission",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/fineage",
+            "chrome_web_store": "",
+            "play_on_the_web": "",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/duolastic/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "gameName": "Duolastic",
+        "date": "2017-01-22",
+        "released": true,
+        "jam": true,
+        "jamName": "Global Game Jam 2017",
+        "jamTheme": "Waves",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/electropolis/",
+        "creator": "fufroom (Alex Bezuska), Lindar K. Greenwood, Eric Lathrop, howdycara, Rex Soriano",
+        "gameName": "Electropolis",
+        "date": "2016-03-14",
+        "released": true,
+        "jam": true,
+        "jamName": "Train Jam 2016",
+        "jamTheme": "Maximum Catpacity",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/electropolis",
+            "chrome_web_store": "",
+            "play_on_the_web": "https://two-scoop-games.itch.io/electropolis",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/morningritual/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop, howdycara, Chris Kincaid",
+        "gameName": "Morning Ritual",
+        "date": "2016-01-31",
+        "released": true,
+        "jam": true,
+        "jamName": "Global Game Jam 2016",
+        "jamTheme": "Ritual",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/morning-ritual",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://twoscoopgames.com/morningritual/game/",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/clusterjunk/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop, howdycara, Ben Wiley",
+        "gameName": "Cluster Junk",
+        "date": "2015-12-11",
+        "released": true,
+        "jam": true,
+        "jamName": "Ludum Dare 34",
+        "jamTheme": "Growing",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://www.twoscoopgames.com/ld34/",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/treatmentandcontrol/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop, Chris Kincaid",
+        "gameName": "Treatment and Control",
+        "date": "2015-08-21",
+        "released": true,
+        "jam": true,
+        "jamName": "Ludum Dare 33",
+        "jamTheme": "You are the Monster",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://twoscoopgames.com/treatmentandcontrol/game/",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/stanleysqueaks/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop, Wai Ying Lam",
+        "gameName": "Stanley Squeaks and the Emerald Burrito",
+        "date": "2014-08-22",
+        "released": true,
+        "jam": true,
+        "jamName": "Ludum Dare 30",
+        "jamTheme": "Connected Worlds",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://twoscoopgames.com/stanleysqueaks/game",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/uprooted/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "gameName": "Uprooted",
+        "date": "2015-04-17",
+        "released": true,
+        "jam": true,
+        "jamName": "Ludum Dare 32",
+        "jamTheme": "An Unconventional Weapon",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/uprooted",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://twoscoopgames.com/ld32/",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/thedaytheworldchanged/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "gameName": "The Day the World Changed",
+        "date": "2015-01-25",
+        "released": true,
+        "jam": true,
+        "jamName": "Global Game Jam 2015",
+        "jamTheme": "What do we do now?",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/thedaytheworldchanged",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://twoscoopgames.com/ggj15/",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/desserts/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop",
+        "gameName": "Desserts Killed Your Daddy",
+        "date": "2014-12-05",
+        "released": true,
+        "jam": true,
+        "jamName": "Ludum Dare 31",
+        "jamTheme": "Entire Game on One Screen",
+        "platforms": {
+            "steam": "",
+            "itch_io": "",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://twoscoopgames.com/ludumdare31/",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/fluffykins/",
+        "creator": "fufroom (Alex Bezuska), Nathan Hutchens, Eric Lathrop, Rex Soriano, Anthony Quisenberry, Aaron Smith",
+        "gameName": "Mr. Fluffykins' Great Sorting Adventure",
+        "date": "2014-04-25",
+        "released": true,
+        "jam": true,
+        "jamName": "Ludum Dare 29",
+        "jamTheme": "Beneath the Surface",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/mr-fluffykins-great-sorting-adventure",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://twoscoopgames.com/fluffykins/game",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    },
+    {
+        "link": "http://twoscoopgames.com/apartment213/",
+        "creator": "fufroom (Alex Bezuska), Eric Lathrop, Mike Revel, Mint (Mattie Richards)",
+        "gameName": "Apartment 213",
+        "date": "2014-01-24",
+        "released": true,
+        "jam": true,
+        "jamName": "Global Game Jam 2014",
+        "jamTheme": "we don't see things as they are, we see them as we are",
+        "platforms": {
+            "steam": "",
+            "itch_io": "https://two-scoop-games.itch.io/apartment-213",
+            "chrome_web_store": "",
+            "play_on_the_web": "http://twoscoopgames.com/apartment213/game",
+            "nintendo_switch": "",
+            "apple_app_store": "",
+            "google_play_store": "",
+            "android_apk": ""
+          }
+    }
+]
