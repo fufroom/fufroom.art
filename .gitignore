@@ -129,8 +129,7 @@ out
 .yarn/install-state.gz
 .pnp.*
 
-
-upload.sh
+.env
 .DS_Store
 
 dist/*

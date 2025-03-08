@@ -82,3 +82,30 @@ main {
 footer .fab {
     vertical-align: middle;
 }
+
+.legal-page {
+    background: linear-gradient(to bottom right, #6e1d87, #f8f9fa);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.legal-card {
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .legal-card {
+        max-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}

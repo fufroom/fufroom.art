@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /support.html
+Disallow: /privacy.html

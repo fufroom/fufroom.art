@@ -17,18 +17,17 @@
     "Creative Game Design",
     "Game Development Projects",
     "Indie Game Releases"
-  ]
-,  
+  ],
   "contributors": [
     {
       "name": "fufroom (Alex Bezuska)",
       "email": "hello@fufroom.art",
       "url": "http://fufroom.art"
     }
-  ],  
+  ],
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "^11.2.0",
+    "fs-extra": "^11.3.0",
     "handlebars": "^4.7.8"
   }
 }
